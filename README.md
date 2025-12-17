@@ -23,10 +23,3 @@ Use the [instructor's notebook](https://github.com/nipunbatra/ml-teaching/blob/m
 
     Vary the low-rank value as ```r = [5, 10, 25, 50]```  for each of the cases. Use Gradient Descent and plot the reconstructed patches over the original image (retaining all pixel values outside the patch, and using your learnt compressed matrix in place of the patch) to demonstrate difference in reconstruction quality. Write your observations. 
 
-Here is a reference set of patches chosen for each of the 3 cases from left to right. 
-
-<div style="display: flex;">
-<img src="sample_images/1colour.jpg" alt="Image 1" width="250"/>
-<img src="sample_images/2-3_colours.jpg" alt="Image 2" width="270"/>
-<img src="sample_images/multiple_colours.jpg" alt="Image 3" width="265"/>
-</div>
